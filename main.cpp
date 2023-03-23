@@ -21,6 +21,7 @@ int f(int a, int b, char op) {
 	if (op == '-') return a - b;
 	if (op == '+') return a + b;
 	if (op == '*') return a * b;
+	if (op == '/') return a / b;
 }
 
 int main() {
